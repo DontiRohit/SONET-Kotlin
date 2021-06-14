@@ -10,10 +10,10 @@ import android.widget.Button
 import android.widget.Spinner
 import androidx.constraintlayout.widget.ConstraintLayout
 
-class MainActivity : AppCompatActivity() {
+class backgroundcolour : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_backgroundcolour)
         var btn=findViewById<Button>(R.id.bttn)
         var colour=findViewById<Spinner>(R.id.colour)
         var lt=findViewById<ConstraintLayout>(R.id.bgnd)
